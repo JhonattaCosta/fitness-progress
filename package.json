@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint:check": "prettier --check",
-    "lint:fix": "prettier --write ."
+    "lint:fix": "prettier --write .",
+    "dev": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
